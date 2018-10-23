@@ -2,8 +2,8 @@
 @charset "iso-8859-1";
 
 
-a.one:link {color:#ffffff;}
-a.one:visited {color:#ffffff;}
+a.one:link {color:#ff0000;}
+a.one:visited {color:#ff0000;}
 a.one:hover {color:#f7c1bb;}
 
 a.two:link {color:#ff0000;}
