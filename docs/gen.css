@@ -3,11 +3,67 @@
 
 
 
+body {color: rgb(192, 192, 192);
 
 
-a.one:link {color:#ffffff;}
-a.one:visited {color:#ffffff;}
-a.one:hover {color:#f7c1bb;}
+}
+
+h1   {rgb(192, 192, 192);}
+
+p    {color: rgb(192, 192, 192);}
+
+.p2    {color: rgb(192, 192, 192);
+
+
+font-family: arial; font-style: normal;
+font-variant: normal; font-weight: bold; font-size: 16px;
+line-height: normal; font-size-adjust: none; font-stretch:
+normal; COLOR: #000000;
+
+}
+
+
+a:link {
+    color: #faebd7; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #a83535;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+font-size: 25px;
+}
+
+a:active {
+    color: #008080;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+a.one:link {color:#ffffff; font-size: 16px;
+}
+a.one:visited {color:#ffffff;font-size: 16px;}
+a.one:hover {color:#f7c1bb;
+    background-color: transparent;
+    text-decoration: none;
+font-size: 16px;
+a.one:active {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 16px;
+}
 
 a.two:link {color:#ff0000;}
 a.two:visited {color:#0000ff;}
@@ -24,6 +80,27 @@ a.four:hover {font-family:monospace;}
 a.five:link {color:#ff0000;text-decoration:none;}
 a.five:visited {color:#0000ff;text-decoration:none;}
 a.five:hover {text-decoration:underline;}
+
+
+}
+
+.mytext {
+	
+	FONT-SIZE: 12pt; COLOR:  rgb(192, 192, 192); LINE-HEIGHT: 18px; 
+	FONT-FAMILY: Times New Roman; 
+}
+
+.mytext2 {
+	
+	FONT-SIZE: 18pt; COLOR: #000000; LINE-HEIGHT: 25px; 
+	FONT-FAMILY: Bell MT; 
+
+              
+               border-right: 1px dotted #993333;  
+               border-bottom: 1px outset #993333; padding: 3px;
+padding-left:4px; padding-right:4px; padding-top:1px; padding-bottom:1px;
+
+}
 
 
 
@@ -47,16 +124,39 @@ a.five:hover {text-decoration:underline;}
 }
 
 
+.heading3 {
+	
+	FONT-SIZE: 35pt; COLOR: #000000; LINE-HEIGHT: 35px;    
+        font-weight: 900;
+	FONT-FAMILY: ariel;  
+         letter-spacing: 6px;
+        
+
+        overflow: auto;
+
+    padding: 13px 0;
+    border: 0px solid green;
+    text-align: center;
 
 
+        margin-left: auto ;
+        margin-right: auto ;
+}
 
+.heading4 {
+	border-style:solid; border-width:1px; 
+	FONT-SIZE: 10pt; COLOR: #000000; LINE-HEIGHT: 14px; 
+	FONT-FAMILY: Bell MT; list-style-image:url('docs/bullet.jpgf'); 
+	width:183; padding-left:4px; padding-right:4px; padding-top:1px; padding-bottom:1px; 
+	background-color:#FFCCCC; height:20
+}
 
 
 
 .base1 {
 	border-style:solid; border-width:1px; 
 	FONT-SIZE: 10pt; COLOR: #000000; LINE-HEIGHT: 14px; 
-	FONT-FAMILY: Bell MT; list-style-image:url('_themes/watermar/awatbul2.gif'); 
+	FONT-FAMILY: Bell MT; list-style-image:url('docs/bullet.jpg'); 
 	width:200; padding-left:4px; padding-right:4px; padding-top:1px; padding-bottom:1px; 
 	background-color:#FFCCCC; height:120
 }
@@ -101,6 +201,7 @@ a.five:hover {text-decoration:underline;}
 
 
 
+
 .base4 {
 	border-style:solid; border-width:1px; 
 	FONT-SIZE: 14pt; COLOR: #000000; LINE-HEIGHT: 14px; 
@@ -111,11 +212,21 @@ a.five:hover {text-decoration:underline;}
                
  
 
-.base5      { width: 500; height: 250;  8pt; 
-               border-left: 1px solid #993333; 
-               border-right: 1px dotted #993333; border-top: 1px inset #993333; 
-               border-bottom: 1px outset #993333; padding: 3px; 
-               background-color: #FFF9F9; font-size:10pt; color:#000000; font-family:Trebuchet MS }  
+.base5      { width: 800; height: 20;  8pt; 
+               border-left: 1px solid #e6edef; 
+               border-right: 1px dotted #e6edef; border-top: 1px inset #993333; 
+               border-bottom: 1px outset #e6edef; padding: 3px; 
+
+  margin-left: auto ;
+  margin-right: auto ;
+
+text-align:center;
+
+background-color: #134596; font-size:10pt; COLOR: rgb(192, 192, 192); font-family:Trebuchet MS 
+
+
+}  
+.base5 :hover {font-size: 10pt;} 
 
 
 .border      { 
