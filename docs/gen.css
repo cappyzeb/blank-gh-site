@@ -357,7 +357,7 @@ border-left: 1px dashed #930b0b;
 
 .container2 {
     position: relative;
-border-bottom: 10px solid #930b0b; padding: 0;
+border-bottom: 1px solid #930b0b; padding: 0;
 
 border-left: 1px dashed #930b0b;
 width:300px;
@@ -372,7 +372,7 @@ width:300px;
 width:275px;
 
 
-    top:   360px;
+    top:   365px;
     right: 723px;
 
 
@@ -389,7 +389,7 @@ width:275px;
 width:275px;
 
 
-    top:    90px;
+    top:    98px;
     right: 723px;
 
 
